@@ -34,6 +34,11 @@ gem "sqlite3", "~> 1.4"
 # Require all files in a folder
 gem "require_all", "~> 3.0"
 
+
+# Used to generate seed data
+  # https://github.com/faker-ruby/faker
+  gem "faker"
+
 # These gems will only be used when we are running the application locally
 group :development do
   gem "pry", "~> 0.14.1"
